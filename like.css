@@ -1,0 +1,196 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+.wishlist-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.wishlist-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.wishlist-header p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 12px 24px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background-color: #333;
+}
+
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.wishlist-empty h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.wishlist-empty p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.secondary-btn {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.secondary-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.img{
+    background-image: url(https://assets.bosecreative.com/transform/ab907c8e-aaeb-40c3-bf0f-719a944e4883/MyBose_Account_Banner_1176x540_x2);
+    background-size: cover;
+    height: 600px;
+    width: 1200px;
+    margin-left: 110px;
+}
+.footer {
+  background-color: #fff;
+  padding: 3rem 5%;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footer-column h3 {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #555;
+}
+
+.footer-column.wide {
+  grid-column: span 1;
+}
+
+.store-section {
+  margin-bottom: 2rem;
+}
+
+.store-links {
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+}
+
+.newsletter h3 {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.newsletter-input input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.newsletter-input button {
+  padding: 0.8rem 1.2rem;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 20vh;
+}
+
+.newsletter-input button:hover {
+  background-color: #333;
+}
+
+.footer-bottom {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #111;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #555;
+}
+
+.currency {
+  font-size: 1.2rem;
+}

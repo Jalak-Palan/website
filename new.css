@@ -1,0 +1,142 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hindustantimes.com%2Ftechnology%2Fbest-bose-speakers-elegance-meets-excellence-top-10-picks-for-you-101704870796151.html&psig=AOvVaw1OkVNSO0xOs9oCmqk1mIms&ust=1762018637251000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPC_usf-zpADFQAAAAAdAAAAABAE') center/cover no-repeat;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.left-panel {
+  flex: 1;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.right-panel {
+  flex: 1;
+  background: linear-gradient(to bottom right, #0f1c3f, #3a6edc);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.form-box {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.terms {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.terms a {
+  color: #3a6edc;
+  text-decoration: none;
+}
+
+button[type="submit"] {
+  background-color: #3a6edc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.social {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.apple {
+  background-color: #000;
+  color: white;
+}
+
+.work-account {
+  font-size: 12px;
+  text-align: center;
+}
+
+.work-account a {
+  color: #3a6edc;
+  text-decoration: none;
+}
+
+.branding {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.branding span {
+  display: block;
+}
